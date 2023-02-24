@@ -665,6 +665,11 @@ footer .juan:hover {
         background-position: 90% top;
     }
 
+    .pampa {
+        background-image: url("./assets/artist/banner-pampa.jpg");
+        background-position: 90% top;
+    }
+
     .img-artist img {
         opacity: 1;
     }
