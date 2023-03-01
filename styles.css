@@ -440,8 +440,11 @@ footer .juan:hover {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
     margin-top: 10vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .discip {
