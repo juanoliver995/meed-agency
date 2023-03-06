@@ -600,6 +600,67 @@ footer .juan:hover {
     width: 100%;
 }
 
+/* Newsletter */
+.newsletter {
+    width: 100%;
+    margin: 30px auto;
+    background: linear-gradient(138deg, rgba(222, 73, 93, 1) 0%, rgba(223, 50, 139, 1) 50%, rgba(176, 38, 203, 1) 100%);
+}
+
+.container-form {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-newsletter h2 {
+    font-family: Neue-Bold-Extended;
+    font-size: 50px;
+    color: white;
+}
+
+.info-newsletter p {
+    font-family: Neue-Bold;
+    font-size: 22px;
+}
+
+.newsletter form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.field label {
+    font-size: 18px;
+    color: white;
+    font-family: Neue-Regular;
+}
+
+.field input {
+    width: 100%;
+    display: block;
+    line-height: 1.5;
+    font-size: 14px;
+    padding: 4px 12px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-family: Neue-Bold;
+}
+
 @media (max-width: 1059px) {
     .contact {
         display: flex;
@@ -702,6 +763,14 @@ footer .juan:hover {
     .artists h2 {
         font-size: 50px;
         text-align: center;
+    }
+
+    .container-form {
+        flex-direction: column;
+    }
+
+    .newsletter form {
+        width: 100%;
     }
 }
 
@@ -818,6 +887,14 @@ footer .juan:hover {
 
     .logo-artist-h1 {
         font-size: 32px;
+    }
+
+    .info-newsletter h2 {
+        font-size: 35px;
+    }
+
+    .container-form {
+        padding: 20px;
     }
 }
 
